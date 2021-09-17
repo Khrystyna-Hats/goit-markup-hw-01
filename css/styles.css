@@ -1,0 +1,60 @@
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --second-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* Header */
+.logo {
+  font-family: "Raleway";
+  Font style: 700;
+  Font size: 26px;
+  Line height: 1.19;
+  Letter spacing: 3%;
+  color: #000000;
+}
+
+.accent-logo {
+  color: var(--accent-color);
+}
+
+.nav-item-link {
+    font style: 500;
+    font size: 14px;
+    line height: 1.14;
+    letter spacing: 2%;
+    color: var(--main-text-color);
+}
+
+.nav-item-link:hover,
+.nav-item-link:focus,
+.second-address-item-link:hover,
+.second-address-item-link:focus {
+    color: var(--accent-color);
+}
+
+.second-address-item-link {
+    font style: 500;
+    font size: 14px;
+    line height: 1.14;
+    letter spacing: 2%;
+    color: var(--second-text-color);
+}
+
+/* Hero */
