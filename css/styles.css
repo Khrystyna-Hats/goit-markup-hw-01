@@ -9,7 +9,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #212121;
 }
 
 .link {
@@ -20,13 +20,20 @@ body {
   list-style-type: none;
 }
 
+.btn {
+  color: var(--main-text-color);
+  background-color: var(--third-background-color);
+  border: none;
+  cursor: pointer;
+}
+
 /* Header */
 .logo {
   font-family: "Raleway";
-  Font style: 700;
-  Font size: 26px;
-  Line height: 1.19;
-  Letter spacing: 3%;
+  font-weight: 700;
+  font size: 26px;
+  line height: 1.19;
+  letter spacing: 3%;
   color: #000000;
 }
 
@@ -35,7 +42,7 @@ body {
 }
 
 .nav-item-link {
-    font style: 500;
+    font-weight: 500;
     font size: 14px;
     line height: 1.14;
     letter spacing: 2%;
@@ -44,13 +51,13 @@ body {
 
 .nav-item-link:hover,
 .nav-item-link:focus,
-.second-address-item-link:hover,
-.second-address-item-link:focus {
+.second-address-link:hover,
+.second-address-link:focus {
     color: var(--accent-color);
 }
 
-.second-address-item-link {
-    font style: 500;
+.second-address-link {
+    font-weight: 500;
     font size: 14px;
     line height: 1.14;
     letter spacing: 2%;
@@ -58,3 +65,108 @@ body {
 }
 
 /* Hero */
+
+.hero {
+    font-weight: 900;
+    font size: 44px;
+    line height: 1.36;
+    align: Center;
+    letter spacing: 6%;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--third-text-color);
+}
+
+.hero-section {
+background-color: var(--second-background-color);
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 700;
+    font size: 16px;
+    line height: 1.88;
+    letter spacing: 6%;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-color);
+    color: var(--third-text-color);
+ }
+
+ /* Benefits */
+
+ .benefits-title {
+    font size: 14px;
+    line height: 1.14;
+    align: Left;
+    letter spacing: 3%;
+    text-transform: uppercase;
+ }
+
+ .benefits-desc {
+    font size: 14px;
+    line height: 1.71;
+    align: Left;
+    letter spacing: 3%;
+    color: var(--second-text-color);
+ }
+
+ /* What we do */
+
+ .header {
+    font size: 36px;
+    line height: 1.17;
+    text-align: center;
+    letter spacing: 3%;
+ }
+
+ /* Our team */
+
+.our-team {
+  background-color: var(--third-background-color);
+}
+
+.team-member {
+    font-weight: 500;
+    font size: 16px;
+    line height: 1.19;
+    align: Center;
+    letter spacing: 3%;
+}
+
+.team-desc {
+  font size: 16px;
+  line height: 1.19;
+  align: Center;
+  letter spacing: 3%;
+  color: var(--second-text-color);
+}
+
+/* Footer */
+
+.address-section {
+    background-color: var(--second-background-color);
+}
+
+.main-address-link {
+    font-style: normal;
+    font-weight: 400;
+    font size: 14px;
+    line height: 1.71;
+    align: Left;
+    letter spacing: 3%;
+    color: var(--third-text-color);
+}
+
+.address-specialty{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-address-link:hover,
+.main-address-link:focus {
+    background-color: var(--accent-color);
+    color: var(--third-text-color);
+}
+
