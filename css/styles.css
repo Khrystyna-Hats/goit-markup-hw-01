@@ -10,10 +10,12 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+  background-color: #ffffff;
 }
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .list {
@@ -25,6 +27,11 @@ body {
   background-color: var(--third-background-color);
   border: none;
   cursor: pointer;
+}
+
+/* Якщо я правильно зрозуміла, треба було підсвітити поточну сторінку синім, але не знаю, як підсвітити силку "Портфоліо" лише на сторінці Портфоліо, і так само із головною сторінкою html :( */
+a[href="./portfolio.html"] {
+  color: var(--accent-color);
 }
 
 /* Header */
@@ -81,7 +88,7 @@ body {
 background-color: var(--second-background-color);
 }
 
-.btn {
+.hero-btn {
     font-family: inherit;
     font-weight: 700;
     font size: 16px;
@@ -170,3 +177,32 @@ background-color: var(--second-background-color);
     color: var(--third-text-color);
 }
 
+/* Portfolio */
+
+.portfolio-section{
+  background-color: #ffffff;
+}
+
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font size: 16px;
+    line height: 1.63;
+    align: Center;
+    letter spacing: 3%;
+}
+
+.project-card > .project-header {
+font size: 18px;
+line height: 2;
+align: Left;
+letter spacing: 6%;
+}
+
+.project-desc {
+color: var(--second-text-color);
+font size: 16px;
+line height: 1.88;
+align: Left;
+letter spacing: 3%;
+}
